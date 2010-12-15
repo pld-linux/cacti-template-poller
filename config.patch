@@ -1,0 +1,11 @@
+--- cacti-template-poller-0.1/ss_poller.php~	2010-12-14 01:13:20.000000000 +0200
++++ cacti-template-poller-0.1/ss_poller.php	2010-12-14 01:13:54.404277972 +0200
+@@ -6,7 +6,7 @@
+ error_reporting(E_ALL);
+ 
+ if (!isset($called_by_script_server)) {
+-	include_once(dirname(__FILE__) . "/../include/config.php");
++	include_once(dirname(__FILE__) . "/../include/global.php");
+ 
+ 	print call_user_func("ss_poller") . "\n";
+ 	print call_user_func("ss_poller_items") . "\n";
