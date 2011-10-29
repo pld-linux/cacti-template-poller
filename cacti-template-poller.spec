@@ -2,7 +2,7 @@
 Summary:	Cacti Poller Statistics
 Name:		cacti-template-%{template}
 Version:	0.3
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://docs.cacti.net/_media/usertemplate:host:cacti:poller_stats3.tgz
