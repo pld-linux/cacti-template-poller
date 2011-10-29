@@ -12,6 +12,7 @@ URL:		http://docs.cacti.net/usertemplate:host:cacti:poller
 BuildRequires:	rpmbuild(macros) >= 1.554
 BuildRequires:	sed >= 4.0
 Requires:	cacti >= 0.8.7e-8
+Obsoletes:	cacti-addons-Cacti_Poller_Statistics
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
